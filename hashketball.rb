@@ -219,7 +219,7 @@ def big_shoe_rebounds
             if key == :shoe
               value.max
             binding.pry
-          end
+            end
           end
         end
       end

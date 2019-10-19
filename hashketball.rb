@@ -232,9 +232,10 @@ def big_shoe_rebounds
       info.each do |player|
         player.each do |key, value|
           if key == player[:shoe]
+            binding.pry
             if value.max
               player[:rebounds]
-              binding.pry
+              
             end
             
           end

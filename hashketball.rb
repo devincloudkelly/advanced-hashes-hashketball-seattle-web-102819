@@ -208,7 +208,7 @@ def player_stats(player)
  stats_hash
 end
 
-
+=begin
 def big_shoe_rebounds
   shoe_rebounds = 0 
   game_hash.each do |location, team|
@@ -224,7 +224,15 @@ def big_shoe_rebounds
     end
   end
 end
+=end
 
+def big_shoe_rebounds
+  game_hash.each do |location, team|
+    team.each do |attribute, info|
+     binding.pry 
+    end
+  end
+end
 
 
 

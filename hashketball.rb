@@ -234,6 +234,7 @@ def big_shoe_rebounds
           player.each do |key, value|
             if player[:shoe].max {|x| x}
        binding.pry
+            end
           end
         end
       end

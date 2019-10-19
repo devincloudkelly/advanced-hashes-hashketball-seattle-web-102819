@@ -216,12 +216,13 @@ def big_shoe_rebounds
       if attribute == :players
         data.each do |p_name|
           p_name.each do |key, value|
-            binding.pry
+            
             if key == :shoe
               value.each do |x| 
                 if x.max
                 p_name[:rebounds]
               end
+              binding.pry
               end
             end
           end

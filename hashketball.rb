@@ -246,7 +246,7 @@ end
 
 def big_shoe_rebounds
   rebound_player = nil
-  game_hash.each do |locatione team|
+  game_hash.each do |location, team|
     team[:players].each do |player_hash|
       binding.pry
     end

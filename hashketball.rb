@@ -1,6 +1,6 @@
 d# Write your code here!
 require 'pry'
-
+=begin
 def game_hash
 hashketball = {
   :home => {
@@ -127,7 +127,7 @@ hashketball = {
   }
 }
 end
-=begin
+
 def num_points_scored(player)
   game_hash.each do |location, team|
     team.each do |attribute, data|

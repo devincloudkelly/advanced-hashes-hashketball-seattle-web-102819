@@ -127,7 +127,7 @@ hashketball = {
   }
 }
 end
-
+=begin
 def num_points_scored(player)
   game_hash.each do |location, team|
     team.each do |attribute, data|
@@ -142,7 +142,7 @@ def num_points_scored(player)
     end
   end
 end
-=begin
+
 def shoe_size(player)
   game_hash.each do |location, team|
     team.each do |attribute, data|

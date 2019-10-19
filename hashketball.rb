@@ -172,7 +172,7 @@ def team_names
   end
   team_array
 end
-
+=begin
 def player_numbers(team)
   #returns an array with all the numbers of the players on the team that is passed in as an argument
   nums_array = []
@@ -189,7 +189,7 @@ def player_numbers(team)
   end
   nums_array
 end
-=begin
+
 def player_stats(player)
   stats_hash = {}
   game_hash.each do |location, teams|

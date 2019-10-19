@@ -235,6 +235,7 @@ def big_shoe_rebounds
             if value.max
               player[:rebounds]
             end
+            binding.pry
           end
         end
       end

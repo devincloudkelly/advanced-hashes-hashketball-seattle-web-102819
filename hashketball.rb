@@ -218,8 +218,10 @@ def big_shoe_rebounds
           p_name.each do |key, value|
             binding.pry
             if key == :shoe
-              if value.max
+              value.each do |x| 
+                if x.max
                 p_name[:rebounds]
+              end
               end
             end
           end

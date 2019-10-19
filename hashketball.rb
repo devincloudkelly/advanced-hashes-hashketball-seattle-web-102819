@@ -156,7 +156,7 @@ def shoe_size(player)
     end
   end
 end
-
+=begin
 def team_colors(team)
   game_hash.each do |location, teams|
       if teams[:team_name] == team
@@ -164,7 +164,7 @@ def team_colors(team)
     end
   end
 end
-=begin
+
 def team_names
   team_array = []
   game_hash.map do |location, teams|

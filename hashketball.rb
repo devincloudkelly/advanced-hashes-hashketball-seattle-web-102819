@@ -234,8 +234,9 @@ def big_shoe_rebounds
           if key == player[:shoe]
             if value.max
               player[:rebounds]
+              binding.pry
             end
-            binding.pry
+            
           end
         end
       end

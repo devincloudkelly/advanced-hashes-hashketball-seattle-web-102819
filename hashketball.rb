@@ -224,7 +224,7 @@ def big_shoe_rebounds
     end
   end
 end
-=end
+
 
 def big_shoe_rebounds
   game_hash.each do |location, team|
@@ -242,7 +242,12 @@ def big_shoe_rebounds
     end
   end
 end
+=end
 
+def big_shoe_rebounds
+  game_hash.each do |locatione, team|
+    team[]
+end
 
 
 

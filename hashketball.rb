@@ -235,7 +235,7 @@ def big_shoe_rebounds
         data.each do |player|
           player.each do |key, value|
             if key == :shoe
-             # value.max
+             biggest_shoe = value.max
             end
           end
         end

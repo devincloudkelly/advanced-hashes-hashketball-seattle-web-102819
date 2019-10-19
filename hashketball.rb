@@ -189,7 +189,7 @@ def player_numbers(team)
   end
   nums_array
 end
-
+=begin
 def player_stats(player)
   stats_hash = {}
   game_hash.each do |location, teams|
@@ -208,7 +208,7 @@ def player_stats(player)
  stats_hash
 end
 
-=begin
+
 def big_shoe_rebounds
   shoe_rebounds = 0 
   game_hash.each do |location, team|

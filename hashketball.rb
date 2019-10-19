@@ -220,6 +220,7 @@ def big_shoe_rebounds
               value.max
             binding.pry
           end
+          end
         end
       end
     end

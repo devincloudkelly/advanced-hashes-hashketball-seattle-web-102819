@@ -217,7 +217,7 @@ def big_shoe_rebounds
         data.each do |p_name|
           if p_name[:shoe].each.max
             
-          binding.pry
+          
           end
         end
       end

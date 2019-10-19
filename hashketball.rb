@@ -1,6 +1,6 @@
-d# Write your code here!
+#Write your code here!
 require 'pry'
-=begin
+
 def game_hash
 hashketball = {
   :home => {
@@ -223,7 +223,7 @@ def big_shoe_rebounds
     end
   end
 end
-=end
+
 
 
 

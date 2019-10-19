@@ -164,7 +164,7 @@ def team_colors(team)
     end
   end
 end
-
+=begin
 def team_names
   team_array = []
   game_hash.map do |location, teams|
@@ -172,7 +172,7 @@ def team_names
   end
   team_array
 end
-=begin
+
 def player_numbers(team)
   #returns an array with all the numbers of the players on the team that is passed in as an argument
   nums_array = []

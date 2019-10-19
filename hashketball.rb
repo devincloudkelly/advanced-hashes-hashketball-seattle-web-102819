@@ -246,7 +246,7 @@ end
 
 def big_shoe_rebounds
   game_hash.each do |locatione, team|
-    team[]
+    team[:players].each 
 end
 
 

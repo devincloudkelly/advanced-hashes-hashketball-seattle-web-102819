@@ -258,12 +258,13 @@ def winning_team
           if location == :away 
             away_points += player[:points]
           end
+          if home_points > away_points
+            return 
         end
       end
     end
   end
-  if home_points > away_points
-    return 
+  
 end
 
 

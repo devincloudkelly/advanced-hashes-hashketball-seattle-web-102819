@@ -208,24 +208,6 @@ def player_stats(player)
  stats_hash
 end
 
-=begin
-def big_shoe_rebounds
-  shoe_rebounds = 0 
-  game_hash.each do |location, team|
-    team.each do |attribute, data|
-      if attribute == :players
-        data.each do |p_name|
-          if p_name[:shoe].each.max
-            
-          
-          end
-        end
-      end
-    end
-  end
-end
-=end
-
 def big_shoe_rebounds
   biggest_shoe = 0 
   rebounds = 0 
@@ -262,7 +244,13 @@ def most_points_scored
   scoring_player
 end
 
-
+def winning_team
+  home_points = 0 
+  away_points = 0 
+  game_hash.each do |location, team|
+    binding.pry
+  end
+end
 
 
 

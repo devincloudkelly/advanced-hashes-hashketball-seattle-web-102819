@@ -299,13 +299,14 @@ def long_name_steals_a_ton?
             number_steals = player[:steals]
             stealing_player = player[:player_name]
           end
-          if stealing_player == player_with_longest_name
-            true 
-          end
+          
         end
       end
     end
   end
+  if stealing_player == player_with_longest_name
+            true 
+          end
 end
 
 

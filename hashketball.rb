@@ -259,8 +259,10 @@ def winning_team
             away_points += player[:points]
           end
           if home_points > away_points
-            return 
+            return game_hash[:home][:team_name]
           end
+          if away_points > home_points
+            return game_hash[:away][:team_name]
         end
       end
     end
